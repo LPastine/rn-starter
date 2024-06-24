@@ -1,9 +1,9 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
-const ImageDetail = () => {
+const ImageDetail = ({ title }) => {
   return (
-    <Text>Image Detail</Text>
+    <Text>{title}</Text>
   )
 }
 
